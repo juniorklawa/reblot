@@ -37,11 +37,6 @@ bot.onText(/\/removeBlur (.+)/, async (msg, match) => {
   setTimeout(() => {
     bot.sendMessage(chatId, "Feito:");
     bot.sendDocument(chatId, `${fileName}.html`);
-
-    fs.unlink(`${fileName}.html`, function (err) {
-        if (err) throw err;
-        console.log('File deleted!');
-    });
   }, 2000);
 
 });
