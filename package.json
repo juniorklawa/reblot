@@ -1,0 +1,15 @@
+{
+  "name": "remove-blur-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:juniorklawa/remove-blur-bot.git",
+  "author": "everaldo@bb-8 <juniorklawa10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "got": "^11.8.2",
+    "node-telegram-bot-api": "^0.54.0",
+    "request-promise": "^4.2.6"
+  }
+}
