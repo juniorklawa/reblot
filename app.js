@@ -5,7 +5,7 @@ const cheerio = require("cheerio");
 const fs = require('fs');
 const TOKEN = process.env.TOKEN;
 
-console.log(TOKEN)
+console.log("roblot server running! 🚀")
 const bot = new TelegramBot(TOKEN, { polling: true });
 
 async function removeBlurFromUrl(url) {
